@@ -1,0 +1,124 @@
+.comunidad-thumbnail {
+  height: 353px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.comunidad-container.style-2 .comunidad-thumbnail, .comunidad-container.style-2 .comunidad-exerpt {
+  display: inline-block;
+  width:50%;
+  max-width: 353px;
+  vertical-align: middle;
+}
+
+.comunidad-container.style-2 .comunidad-thumbnail {
+  margin-left: 26px;
+  max-width: 358px;
+  margin-left: 0;
+}
+
+.comunidad-container.style-2 .comunidad-exerpt {
+  height: 353px;
+  background-color: #fff;
+  color: #929292;
+  width: 100%;
+  max-width: 386px;
+  padding: 2.3rem;
+}
+
+.comunidad-container.style-3 .comunidad-thumbnail {
+  position: relative;
+}
+
+.comunidad-container.style-3 .comunidad-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 1;
+}
+
+.comunidad-container.style-2 .comunidad-exerpt h4 {
+  font-size: 1.6rem;
+  color: #1e1e1e;
+  margin-top: 0.5rem;
+}
+
+.comunidad-container {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding: 0 !important;
+  margin-bottom: 2rem;
+}
+
+ .comunidad-container.style-2 {
+
+ }
+
+.comunidad-container.style-1 .comunidad-thumbnail {
+  /*margin-left: 25px;*/
+}
+
+.comunidad-container.style-1 .col-md-4:first-child .comunidad-thumbnail {
+  /*margin-left: 0;*/
+}
+
+.comunidads-category {
+  background-color: #7682f3;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.2rem 0.5rem;
+  margin: 1.8rem 1.5rem;
+  
+}
+
+.comunidad-play {
+  position:absolute;
+  width: 68px;
+  height: 68px;
+  background-color: #7682f3;
+  bottom: 0;
+  right: 0;
+  z-index: 3;
+  cursor: pointer;
+  text-align: center; 
+}
+
+.comunidad-play:hover {
+  background-color: #434fc2;
+}
+
+.comunidad-columns .wp-block-column:not(:first-child) {
+  margin-left: 0;
+  padding-left: 30px;
+
+}
+
+.comunidad-category {
+  background-color: #7682f3;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.2rem 0.5rem;
+  color: #fff;
+  position: relative;
+  z-index: 2;
+}
+
+.style-1 .comunidad-category, .style-3 .comunidad-category {
+  margin: 2.1rem 2.1rem;
+}
+
+.style-3 .comunidad-title {
+  margin-left: 2.1rem;
+  font-size: 1.6rem;
+  font-family: "DINNext_LT", sans-serif;
+  margin-top: 3rem;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 2;
+}
+
+.style-3 .comunidad-title span{
+  word-break: break-all;
+}

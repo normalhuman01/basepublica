@@ -1,0 +1,233 @@
+ul#menu-menu-principal {
+    display: flex !important;
+    list-style: none !important;
+}
+ul#menu-menu-principal li {
+    padding-left: 1em !important;
+    font-family: 'Libre Franklin' !important;
+    text-transform: uppercase !important;
+    padding-top: 1.5em;
+}
+.navbar#barra-superior {
+        background-color: black;
+        width: 100%;
+        min-width: 960px;
+        margin:0 auto 0;
+        /* display: block;!important */
+        padding-left: 1.6em;!important
+        display: inline-block;!important
+
+        /* max-width: 1343px; */
+    }
+    ul#menu-menu-principal-derecha {
+        display: flex;
+        list-style: none;
+    }
+
+.ajustes{
+  padding-left: 0;!important
+  margin-left: 0;important
+
+}
+.menu-menu-principal-container{
+  display: inline-block;
+
+}
+#barra-superior a{
+  color: #ffffff;!important
+}
+
+#barra-superior a:hover{
+  text-decoration: underline;!important
+}
+.nuevocontainer{
+  width: 80%;
+  min-width: 960px;
+  margin:0 auto 0;
+  display: block;!important
+
+}
+
+p.programa-title {
+    display: none;
+}
+
+.container.barra-sup {
+        background-color: black;
+        width: 100%;
+        min-width: 960px;
+        margin:0 auto 0;
+        display: block;!important
+
+        /* max-width: 1343px; */
+    }
+/* #site-header::after{
+          content: "";
+          height: 12px;
+          width: 100%;
+          display: block;
+          background-color: #7682f3;
+          z-index: 3;
+      } */
+
+header#site-header {
+    position: fixed;
+    width: 100%;
+    background-color: #000000;
+    z-index: 4;
+    max-height: 50px;
+}
+ul#menu-menu-principal li a {
+    color: #FFF;
+    font-size: 15px;
+    font-family: "Libre Franklin";
+}
+li#menu-item-66 {
+    position: absolute;
+    right: 8px;
+    background: #7682f3;
+    padding: 26px 15px 26px 15px;
+    top: 0;
+    font-family: 'Libre Franklin';
+    text-transform: uppercase;
+    font-weight: 600;
+}
+li#menu-item-65 {
+    position: absolute;
+    right: 10em;
+    background: rgba(99, 99, 99, 0.66);
+    padding: 26px 15px 26px 15px;
+    top: 0;
+    font-family: 'Libre Franklin';
+    text-transform: uppercase;
+    font-weight: 600;
+}
+li#menu-item-65 a {
+    color: #FFF;
+}
+li#menu-item-66 a {
+    color: #FFF;
+}
+
+a.navbar-brand img {
+    width: 80%;
+}
+
+.col-lg-2.contacto {
+    /* margin-left: 8.7%; */
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.col-lg-4.redes {
+   padding-bottom: 12px;
+   padding-top: 12px;
+}
+form.search-form {
+    text-align: right;
+}
+.col-lg-2.contacto a {
+    color: #FFF;
+    font-family: 'Libre Franklin';
+    font-weight: 600;
+}
+input#search-form-1 {
+    background: transparent;
+    border: solid 1px #FFF;
+    margin-top: 8px;
+    margin-right: 22px;
+}
+input.submit2 {
+    position: absolute;
+    right: 4.5em;
+    top: 8px;
+    background: transparent;
+    border: none;
+    z-index: 4;
+    width: 15%;
+}
+i.fas.fa-search {
+    position: absolute;
+    right: 4em;
+    top: 13px;
+}
+button, .button, .faux-button, .wp-block-button__link, .wp-block-file .wp-block-file__button, input[type="button"], input[type="reset"], input[type="submit"], .bg-accent, .bg-accent-hover:hover, .bg-accent-hover:focus, :root .has-accent-background-color, .comment-reply-link {
+    background-color: transparent !important;
+}
+.sociales {
+    padding-left: 1.7%;
+    padding-top: 1em;
+}
+.sociales a {
+    color: #FFF;
+    font-size: 1.4em;
+    padding-left: 10px;
+}
+input.botoncillo {
+    background-color: #424b5a !important;
+    border: none;
+    height: 40px;
+    width: 50%;
+    text-transform: uppercase;
+}
+input#cuadro-buscar {
+    border: none #FFF;
+    height: 40px;
+    width: 50%;
+}
+input.botoncillo a {
+    color:#FFF;
+    font-family: 'Libre Franklin';
+    text-transform: uppercase;
+}
+
+
+/*Aqui empece el footer*/
+#site-footer {
+    background-color: #7682f3 !important;
+    height: auto;
+}
+
+.opciones{
+    padding-top:3em;
+    line-height: 3em;
+
+}
+
+.col-lg-6.izq a {
+    color: #FFF;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 600;
+}
+.col-lg-6.der a {
+    color: #FFF;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 600;
+}
+h5.derechos {
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+.logito{
+    padding-top:6em;
+}
+.inscribete{
+    padding-top:6em;
+}
+input#cuadro-buscar {
+    border: none;
+}
+.col-lg-12.todos {
+    border-top: solid 1.5px;
+}
+.row.redesbajas {
+    padding-bottom: 1em;
+}
+
+@media (min-width: 1200px){
+    .container.barra-sup {
+        min-width: 83%;
+        
+}

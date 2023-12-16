@@ -1,0 +1,193 @@
+.swiper-slide {
+  position: relative;
+}
+
+.swiper-slide img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.slider-overlay {
+  background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+  position: absolute;
+  width:100%;height:100%;
+  top:0;left:0;
+}
+
+.slider-line {
+  position: absolute;
+  width: 100%;
+  height: 13px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+}
+
+.style-2 .slider-line {
+  background-color: #7382fb;
+}
+
+.slider-caption {
+  position: absolute;
+  width: 100%;
+  bottom: 13px;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+  padding: 15px 30px;
+  line-height: 1.3em;
+}
+
+.member-name {
+  color: #fff;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.member-ocupation {
+  color: #fff;
+  font-size: 0.9em;
+}
+
+.member-bio {
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  transition: top 0.3s;
+  padding: 60px 30px;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.style-2 .member-bio {
+  background-color: #7382fb;
+}
+
+.member-bio span {
+  color: #000;
+  font-size: 1em;
+  font-weight: bold;
+}
+.member-bio p {
+  color: #000;
+  font-size: 0.8em;
+}
+
+.swiper-slide:hover .member-bio {
+  top: 0;
+}
+
+.swiper-slide:hover .slider-line {
+  background-color: #000;
+}
+
+.style-2 .swiper-slide:hover .slider-line {
+  background-color: #fff;
+}
+
+.swiper-button-next::after, .swiper-button-prev::after {
+  font-weight: bold;
+  color: #fff;
+  font-size: 1em;
+  line-height: 2.4;
+}
+
+.swiper-button-next::after {
+  margin-right: -3px;
+}
+
+.swiper-button-prev::after {
+  margin-left: -3px;
+}
+
+.swiper-button-prev, .swiper-button-next {
+  width: 35px !important;
+  height: 35px;
+  top: 50%;
+  margin-top: initial;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border: 1px solid #fff;
+  border-radius: 50%;
+  padding: 0;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  left:0;right:0;
+}
+
+.prev-container {
+  left: 0; top:0;
+  margin-right:15px;
+  display: inline-block;
+}
+
+.next-container {
+  right: 0; top:0;
+  display: inline-block;
+}
+
+.next-container, .prev-container {
+  height: 100%;
+  position: absolute;
+  width: 35px !important;
+}
+
+.team-carousel-wrapper {
+  display: block;
+  width: calc(100% - 120px) !important;
+  max-width: calc(100% - 120px) !important;
+  margin: 0 auto 0 auto;
+  overflow: hidden;
+  
+}
+
+.team-carousel, .team-swiper-carousel {
+  width: 100%;
+  max-width: 1600px;
+  position: relative;
+  
+}
+
+.swiper-pagination {
+  position: relative;
+  display: block;
+  margin: 30px auto;
+  width: 100% !important;
+}
+
+.swiper-pagination-bullet {
+  border: 3px solid #fff;
+  margin: 0 10px;
+  width: 13px;
+  height: 13px;
+  opacity: 1;
+  background-color: transparent;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #fff;
+}
+
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-main {
+
+}
+
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next, .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev,  .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next-next, .swiper-pagination-bullets-dynamic .swiper-pagination-bullet{
+transform: scale(1);
+}
+
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev {
+
+}
+
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next-next {
+
+}

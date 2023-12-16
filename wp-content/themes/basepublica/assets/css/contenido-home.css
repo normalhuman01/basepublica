@@ -1,0 +1,43 @@
+
+.contenido-home{
+  display: block;
+  clear: both;
+  margin:0 auto 0;
+  min-width: 960px;
+  width: 80%;
+}
+section .section-home{
+
+}
+.barra h1::before{
+      content: "";
+      height: 12px;
+      width: 130px;
+      display: block;
+      background-color: #7682f3;
+      margin-bottom: 15px;
+      clear: both;
+  }
+.swiper-slide-home{
+
+}
+
+.page-template-template-inicio-basepublica .wp-block-group.alignwide, .page-template-template-inicio-basepublica .marketing-container{
+  /* max-width: 93rem; */
+  width: 100%;
+  /* min-width: inherit; */
+  /* width:inherit; */
+}
+.page-template-template-inicio-basepublica h3 {
+  padding: 2.5rem 0 1.2rem;
+  font-size: 2.5rem;
+}
+
+.programa-title {
+  max-width: inherit !important;
+  width: initial;
+  display: inline;
+  padding: 0.5rem;
+  background-color: #7682f3;
+  font-weight: bold;
+}

@@ -1,0 +1,193 @@
+.entry-content .carousel-bg:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
+  width: 100%;
+  max-width: 100%
+}
+
+.carousel-bg .carousel-inner .carousel-item {
+  background-color: transparent;
+  background-size: cover;
+  background-position: center;
+  position:relative;
+}
+
+.carousel-bg.carousel {
+  height: auto;
+  min-height: initial;
+  margin-bottom: 0;
+}
+
+.big .carousel-inner .carousel-item {
+  min-height: 360px;
+  height: 80vh;
+}
+
+.cafepublico.carousel {
+  z-index: 1;
+}
+
+.cafepublico .carousel-inner .carousel-item {
+  min-height: 603px;
+  height: 90vh;
+}
+
+.medium .carousel-inner .carousel-item {
+  min-height: 251px;
+  height: 100%;
+}
+
+.carousel.slide.carousel-bg.medium ul, .carousel.slide.carousel-bg.medium ol {
+  padding-left: 0;
+}
+
+.carousel.slide.carousel-bg.medium .slideshow-content ol li {
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.carousel.slide.carousel-bg.medium p strong {
+  color: #fff;
+}
+
+.big .slideshow-content {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: 2;
+}
+
+.slideshow-content .d-table-cell {
+  position:relative;
+}
+
+.big .slideshow-content
+
+.medium .slideshow-content .wp-block-columns.alignfull, .medium .slideshow-content .wp-block-columns.alignwide {
+  padding: 0;
+}
+
+.medium .slideshow-content, .medium .slideshow-content .wp-block-columns {
+  height: 100%;
+  min-height: 245px;
+}
+
+.medium .slideshow-content .wp-block-columns {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.medium .slideshow-content .wp-block-columns p { 
+  font-size: 1.1rem;
+}
+
+.medium .carousel-control-prev {
+  left: -150px;
+}
+
+.medium .carousel-control-next {
+  right: -150px;
+}
+
+.cafepublico .slideshow-content {
+  display: block;
+  clear: both;
+  margin: 0 auto 0;
+  min-width: 960px;
+  width: 80%;
+  font-size: 1.3rem;
+  z-index: 3;
+  position: relative;
+}
+
+.cafepublico .carousel-control-next, .cafepublico .carousel-control-prev {
+  width: 8%;
+}
+
+.cafepublico .slideshow-content .wp-block-image {
+  margin-top: 2.5rem;
+}
+
+.cafepublico .slideshow-content .wp-block-group__inner-container {
+  max-width: 35rem;
+}
+
+.cafepublico .slideshow-content .align-top {
+  padding-top: 9rem;
+}
+
+.slideshow-content.alignleft .wp-block-group__inner-container {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.slideshow-content.alignleft [class*="__inner-container"] > :not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright) {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.slideshow-content {
+  color:#fff;
+  padding: 0;
+}
+
+.entry-content .slideshow-content .wp-block-columns h1, .entry-content .slideshow-content .wp-block-columns h2, .entry-content .slideshow-content .wp-block-columns h3, .entry-content .slideshow-content .wp-block-columns h4, .entry-content .slideshow-content .wp-block-columns h5 {
+  margin: 0;
+}
+
+.slideshow-content p {
+  font-size: 0.8em;
+}
+
+.carousel .carousel-indicators li {
+  width: 13px;
+  height: 13px;
+  border: 3px solid #fff;
+  background-color: transparent;
+  opacity: 1;
+  border-radius: 100%;
+  box-sizing: inherit;
+  background-clip: inherit;
+  margin: 0 10px;
+}
+
+.carousel .carousel-indicators .active {
+  background-color: #fff;
+}
+
+.slideshow-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+19,000000+74,000000+74,242425+100&1+0,0.26+19,0.26+74,1+100 */
+background: -moz-linear-gradient(top,  rgba(0,0,0,1) 0%, rgba(0,0,0,0.26) 19%, rgba(0,0,0,0.26) 74%, rgba(36,36,37,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(0,0,0,0.26) 19%,rgba(0,0,0,0.26) 74%,rgba(36,36,37,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(0,0,0,1) 0%,rgba(0,0,0,0.26) 19%,rgba(0,0,0,0.26) 74%,rgba(36,36,37,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#242425',GradientType=0 ); /* IE6-9 */
+
+}
+
+.carousel.slide.carousel-bg .slideshow-content .wp-block-buttons {
+  display: inline-block;
+  margin-top: 3rem;
+}
+
+.carousel.slide.carousel-bg .slideshow-content .programas-play {  
+  position: inherit;
+  width: inherit;
+  height: inherit;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.carousel.slide.carousel-bg .arrow-down {
+  width: 57px;
+  height: 31px;
+  background-image: url('img/arrow-down.png');
+  bottom: 0;
+  left: 50%;
+  transform: translateX(50%);
+  display: block;
+  position: absolute;
+}

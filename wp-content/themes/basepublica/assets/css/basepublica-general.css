@@ -1,0 +1,43 @@
+
+html, body {
+  background-color: #ffffff;
+  color: #fff;
+  /* font-family: "'Libre Franklin'", sans-serif; */
+	font-size: 100%; /* 1rem = 10px */
+	scroll-behavior: smooth;
+  }
+
+
+}
+h1, h2, h3, h4 {
+  font-family: "DINNext_LT", sans-serif;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+span {
+  font-family: DINNext_LT, Verdana, Arial, sans-serif;
+  font-size: 24px;
+}
+
+p strong {
+  font-weight: normal;
+  color: #000;
+}
+
+p {
+  font-size: 1.7rem;
+}
+
+p em {
+  font-size: 3rem;
+  font-style: inherit;
+  font-family: "DINNext_LT", sans-serif;
+}
+
+li {
+  font-family: 'Libre Franklin', Verdana, Arial, sans-serif;
+}

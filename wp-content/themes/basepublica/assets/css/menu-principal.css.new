@@ -1,0 +1,174 @@
+ul#menu-menu-principal {
+    display: flex !important;
+    list-style: none !important;
+}
+ul#menu-menu-principal li {
+    padding-left: 1em !important;
+    font-family: 'Libre Franklin' !important;
+    text-transform: uppercase !important;
+    padding-top: 1.5em;
+}
+.navbar#barra-superior {
+        background-color: black;
+        width: 80%;
+        min-width: 960px;
+        margin:0 auto 0;
+        display: block;!important
+        /* max-width: 1343px; */
+        max-height: 64px;
+    }
+
+.container.barra-sup {
+        background-color: black;
+        width: 80%;
+        min-width: 960px;
+        margin:0 auto 0;
+        display: block;!important
+
+        /* max-width: 1343px; */
+    }
+
+header#site-header {
+    position: fixed;
+    width: 100%;
+    background-color: transparent;
+    z-index: 4;
+    max-height: 64px;
+    height:64px;!important
+    border-bottom: 1px solid;
+    border-bottom-color: #fff;
+}
+.navbar a,ul#menu-menu-principal li a {
+    color: #FFF;
+    font-size: 15px;
+    font-family: "Libre Franklin";
+    font-variant: medium;
+    text-transform: uppercase;
+    font-weight: 550;
+    letter-spacing: 3px;
+
+}
+li#menu-item-81 {
+    border: none;
+    margin-left: 6.999em;
+    margin-top: -0.6em;
+    background: rgba(99, 99, 99, 0.66);
+    width: 100%;
+    text-align: center;
+}
+li#menu-item-82 {
+    border: none;
+    margin-top: -0.6em;
+    background: #7682f3;
+    width: 100%;
+    text-align: center;
+    padding-right: 10px;
+}
+li#menu-item-61 {
+    width: 100%;
+}
+.col-lg-2.contacto {
+    margin-left: 8.7%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.col-lg-4.redes {
+   padding-bottom: 12px;
+   padding-top: 12px;
+}
+form.search-form {
+    text-align: right;
+}
+.col-lg-2.contacto a {
+    color: #FFF;
+    font-family: 'Libre Franklin';
+    font-weight: 600;
+}
+input#search-form-1 {
+    background: transparent;
+    border: solid 1px #FFF;
+    margin-top: 8px;
+    margin-right: 22px;
+}
+input.submit2 {
+    position: absolute;
+    right: 4.5em;
+    top: 8px;
+    background: transparent;
+    border: none;
+    z-index: 4;
+    width: 15%;
+}
+i.fas.fa-search {
+    position: absolute;
+    right: 4em;
+    top: 13px;
+}
+button, .button, .faux-button, .wp-block-button__link, .wp-block-file .wp-block-file__button, input[type="button"], input[type="reset"], input[type="submit"], .bg-accent, .bg-accent-hover:hover, .bg-accent-hover:focus, :root .has-accent-background-color, .comment-reply-link {
+    background-color: transparent !important;
+}
+.sociales {
+    padding-left: 1.7%;
+    padding-top: 1em;
+}
+.sociales a {
+    color: #FFF;
+    font-size: 1.4em;
+    padding-left: 10px;
+}
+input.botoncillo {
+    background-color: #424b5a !important;
+    border: none;
+    height: 40px;
+    width: 50%;
+    text-transform: uppercase;
+}
+input#cuadro-buscar {
+    border: none #FFF;
+    height: 40px;
+    width: 50%;
+}
+input.botoncillo a {
+    color:#FFF;
+    font-family: 'Libre Franklin';
+    text-transform: uppercase;
+}
+
+
+/*Aqui empece el footer*/
+#site-footer {
+    background-color: #7682f3 !important;
+    height: auto;
+}
+
+.opciones{
+    padding-top:1em;
+}
+
+.col-lg-6.izq a {
+    color: #FFF;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 600;
+}
+.col-lg-6.der a {
+    color: #FFF;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 600;
+}
+h5.derechos {
+    text-align: center;
+}
+.logito{
+    padding-top:2em;
+}
+.inscribete{
+    padding-top:3em;
+}
+input#cuadro-buscar {
+    border: none;
+}
+.botoncillo{
+
+}

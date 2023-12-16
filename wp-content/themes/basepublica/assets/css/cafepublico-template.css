@@ -1,0 +1,117 @@
+.page-template-template-cafepublico .wp-block-group .alignwide {
+  /*max-width: 93rem;*/
+  position: relative;
+  z-index: 2;
+}
+
+.page-template-template-cafepublico .post-inner {
+  padding-top: 0;
+}
+
+.page-template-template-cafepublico .entry-content h3 {
+    font-size: 2.4rem;
+    margin-bottom: 2.5rem;
+}
+
+.page-template-template-cafepublico .programa-title {
+  max-width: inherit !important;
+  width: initial;
+  display: inline;
+  padding: 0.5rem;
+  background-color: #7682f3;
+  font-weight: bold;
+}
+
+.wp-block-button a {
+  background-color: #7682f3;
+  border-radius: .5rem;
+  font-size: 0.7em;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding: 1.1rem 3.5rem;
+}
+
+.page-template-template-cafepublico .wp-block-button a {
+
+}
+
+.page-template-template-cafepublico .wp-block-buttons {
+  display: inline-block;
+  margin-top: 3rem;
+}
+.separador-cafepublico{
+  background: #242425;
+  height: 25px;
+  display: block;
+  clear: both;
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+}
+.separador-cafepublico::after{
+  content: "";
+  background: none;
+  height: 25px;
+  display: block;
+  clear: both;
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+}
+.block-otros-capitulos::before{
+  content: "";
+  background: none;
+  height: 25px;
+  display: block;
+  clear: both;
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+}
+.mejores-momentos-wrapper {
+  position: relative;
+  padding-top: 1px;
+  z-index: 2;
+  height: 54rem;
+}
+
+.block-mejores-momentos {
+  margin-top: -100px !important;
+}
+
+.otros-capitulos-wrapper {
+  height: 370px;
+  position:relative;
+  z-index: 2;
+  padding-top: 1px;
+  background-image: url("../../img/programas/bg-textura.jpg");
+}
+
+.block-otros-capitulos {
+  margin-top: -300px !important;
+}
+
+
+#player-modal .modal-dialog {
+  width: 100%;
+  margin: 3rem auto;
+  padding: 0;
+  max-width: 90%;
+  height: 90vh;
+}
+
+#player-modal iframe#video-player {
+  width: 100% !important;
+  /*height: 100% !important;*/
+}
+
+#player-modal, #player-modal .modal-content {
+  height: auto;
+  min-height: 100%;
+  border-radius: 0;
+}
+
+
+.carousel.cafepublico .wp-block-button__link {
+  color: #fff;
+}
