@@ -1,2 +1,2 @@
 # basepublica
-Desarrollo de theme Wordpress para basepublica.cl basado en theme twenty twenty. Requerimiento de Agencia Pejerrey.
+a development of Wordpress theme for basepublica.cl based on theme twenty twenty. Request from Pejerrey Agency.
